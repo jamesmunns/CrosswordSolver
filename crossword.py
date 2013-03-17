@@ -34,7 +34,7 @@ def load_dict():
     return wordlist
 
 def main():
-    print "Loading Dictionary..."
+    print "Loading Dictionary.."
     worddict = load_dict()
     freqlist = load_freq()
     while( True ):
